@@ -126,13 +126,25 @@ public class SalaryAnalyzer1 {
 		}
 
 		private String oneCoin(long count){
-			if (count <= 100) return "0";
-			else if (count <= 500) return "1";
-			else if (count <= 1000) return "2";
-			else if (count <= 2000) return "3";
-			else if (count <= 5000) return "4";
-			else if (count <= 10000) return "5";
-			else return "6";
+			if (count <= 100) return "1";
+			else if (count <= 200) return "2";
+			else if (count <= 300) return "3";
+			else if (count <= 400) return "4";
+			else if (count <= 500) return "5";
+			else if (count <= 600) return "6";
+			else if (count <= 700) return "7";
+			else if (count <= 800) return "8";
+			else if (count <= 900) return "9";
+			else if (count <= 1000) return "10";
+			else if (count <= 1100) return "11";
+			else if (count <= 1200) return "12";
+			else if (count <= 1300) return "13";
+			else if (count <= 1400) return "14";
+			else if (count <= 1500) return "15";
+			else if (count <= 2000) return "20";
+			else if (count <= 5000) return "50";
+			else if (count <= 10000) return "100";
+			else return "0";
 		}
 	}
 

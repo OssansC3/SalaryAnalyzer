@@ -103,19 +103,35 @@ public class SalaryAnalyzer2 {
 
 	private static String format(int key){
 		switch(key){
-		case 0:
-			return "100円以下";
 		case 1:
-			return "500円以下";
+			return "100円以下";
 		case 2:
-			return "1000円以下";
+			return "200円以下";
 		case 3:
-			return "2000円以下";
+			return "300円以下";
 		case 4:
-			return "5000円以下";
+			return "400円以下";
 		case 5:
-			return "10000円以下";
+			return "500円以下";
 		case 6:
+			return "600円以下";
+		case 7:
+			return "700円以下";
+		case 8:
+			return "800円以下";
+		case 9:
+			return "900円以下";
+		case 10:
+			return "1000円以下";
+		case 11:
+			return "1500円以下";
+		case 12:
+			return "2000円以下";
+		case 13:
+			return "5000円以下";
+		case 14:
+			return "10000円以下";
+		case 15:
 			return "10000円以上";
 		default:
 			return "";
